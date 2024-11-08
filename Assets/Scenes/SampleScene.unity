@@ -218,7 +218,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &101671527
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1445,6 +1445,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 53b82781cf2fb9a4aa3b0d3e0a71f056, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  undoButton: {fileID: 101671528}
   turnText: {fileID: 144807538}
   missedText: {fileID: 1222372628}
   Player1BackgroundOverlay: {fileID: 1242843364}
@@ -1471,7 +1472,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &988327834
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1868,8 +1869,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 480, y: -540}
-  m_SizeDelta: {x: 960, y: 1080}
+  m_AnchoredPosition: {x: 480, y: -307.7763}
+  m_SizeDelta: {x: 960, y: 615.5526}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1242843364
 MonoBehaviour:
@@ -2437,8 +2438,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 1440, y: -540}
-  m_SizeDelta: {x: 960, y: 1080}
+  m_AnchoredPosition: {x: 1440, y: -307.7763}
+  m_SizeDelta: {x: 960, y: 615.5526}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1682630444
 GameObject:
@@ -2786,6 +2787,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   resultText: {fileID: 1682630446}
+  replayButton: {fileID: 988327835}
   homeButton: {fileID: 799045267}
 --- !u!1 &2089575972
 GameObject:
