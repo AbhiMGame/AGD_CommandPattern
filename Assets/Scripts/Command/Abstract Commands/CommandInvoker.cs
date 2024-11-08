@@ -6,7 +6,6 @@ namespace Command.Commands
     public class CommandInvoker
     {
         private Stack<ICommand> commandRegistry = new Stack<ICommand>();
-
         public void ProcessCommand(ICommand commandToProcess)
         {
             ExecuteCommand(commandToProcess);
